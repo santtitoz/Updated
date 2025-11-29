@@ -1,0 +1,42 @@
+# ⚙️ Dependências e Build
+###########################
+
+# Ignora node_modules APENAS dentro da pasta frontend
+frontend/node_modules/
+
+# Ignora venv APENAS dentro da pasta backend
+backend/venv/
+backend/env/
+backend/.venv/
+
+/dist
+/build
+/out
+/coverage
+/temp
+/tmp
+
+# Ignorar o arquivo de lock da dependência (pode ser usado, mas é comum ignorar)
+# package-lock.json
+
+# Se estiver usando npm v2 ou mais antigo
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+yarn-debug.log
+
+# 🐍 Python / Ambientes Virtuais (Regras Gerais)
+######################################
+# Arquivos de bytecode gerados (Geralmente bom ignorar em todo o projeto)
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Arquivos de cache do Python
+.pytest_cache/
+.mypy_cache/
+
+# 💻 IDEs e Editores
+###########################
+# ... (Regras de IDEs, MacOS, Linux, etc., continuam aqui)
